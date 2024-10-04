@@ -245,11 +245,11 @@ def centro_pedido():
             time.sleep(1)  # pausa
             hablar("3 ajustar brillo (nivel de 10 a 1000)")
             time.sleep(1)  # pausa
-            hablar("4 cambiar color a (colores basicos)")
+            hablar("4 cambiar color (a colores basicos)")
             time.sleep(1)  # pausa
-            hablar("5 apagar luz dentro de (horas)")
+            hablar("5 apagar luz dentro (de horas)")
             time.sleep(1)  # pausa
-            hablar("6 cambiar la temperatura")
+            hablar("6 ¿qué temperatura habrá mañana en la ciudad?")
         elif "encender luz" in pedido:
             encender_luz(api)
         elif "apagar luz" in pedido:
